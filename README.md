@@ -85,3 +85,5 @@ mvn clean test
 ## Note
 
 Quotes are stored in memory. Newly added quotes are not persisted after the application restarts.
+
+Jenkins CI polling verification.
