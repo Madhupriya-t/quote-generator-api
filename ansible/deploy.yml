@@ -1,0 +1,7 @@
+---
+- name: Deploy Quote Generator Application
+  hosts: webservers
+  become: yes
+
+  roles:
+    - quote_generator

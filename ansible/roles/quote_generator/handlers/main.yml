@@ -1,0 +1,6 @@
+---
+- name: Restart quote generator
+  ansible.builtin.systemd_service:
+    name: quote-generator
+    state: restarted
+    daemon_reload: yes

@@ -1,0 +1,9 @@
+---
+app_name: quote-generator
+app_user: quoteapp
+app_directory: /opt/quote-generator
+app_jar: quote-generator-api-0.0.1-SNAPSHOT.jar
+local_jar: "{{ playbook_dir }}/../target/quote-generator-api-0.0.1-SNAPSHOT.jar"
+app_port: 8081
+java_package: openjdk-17-jre
+
